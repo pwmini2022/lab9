@@ -41,14 +41,6 @@
       "email": "kaylasimon@talendula.com"
     },
     {
-      "id": "111111111111111111111111",
-      "isActive": true,
-      "age": 39,
-      "name": "Delete me and you'll see errors",
-      "company": "PROSURE",
-      "email": "error@prosure.com"
-    },
-    {
       "id": "5dc9bdc6fb9ede50b4c65fed",
       "isActive": true,
       "age": 21,
