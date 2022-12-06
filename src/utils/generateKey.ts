@@ -1,1 +1,1 @@
-export const generateKey = () => null;
+export const generateKey = () => null as any;
