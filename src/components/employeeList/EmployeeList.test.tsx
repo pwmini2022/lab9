@@ -74,10 +74,16 @@ describe('EmployeeList fetching test', () => {
         expect(screen.getByText('Loading...')).toBeTruthy();
     });
 
-    test('EmployeeList should render AddEmployeeFormContainer after having loaded', async () => {
+    test('EmployeeList should render header after having loaded', async () => {
         render(<EmployeeList/>);
 
         expect(await screen.findByText("Employee list")).toBeTruthy();
+    });
+
+    test('EmployeeList should render AddEmployeeFormContainer after having loaded', async () => {
+        render(<EmployeeList/>);
+
+        expect(await screen.findByText("Add employee")).toBeTruthy();
     });
 
     test('EmployeeList should render 3 list items after having loaded', async () => {
